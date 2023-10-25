@@ -244,7 +244,7 @@ const quizData = [
                 [array[i], array[j]] = [array[j], array[i]];
         }
   }
-  
+  shuffleArray(quizData)
   function displayQuestion() {
     const questionData = quizData[currentQuestion];
   
